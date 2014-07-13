@@ -39,7 +39,7 @@ class Humongous
      *
      * @return string
      */
-    public static function wordify($number, $precision = 1, $decimalSeparator = '.')
+    public static function parse($number, $precision = 1, $decimalSeparator = '.')
     {
         // If we cannot abbreviate it, don't!
         if ($number < 1000 && $number > -1000) {

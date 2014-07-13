@@ -79,7 +79,7 @@ class HumongousTest extends \PHPUnit_Framework_TestCase
         );
 
         foreach ($tests as $test) {
-            $result = Humongous::wordify($test['given']);
+            $result = Humongous::parse($test['given']);
             $this->assertEquals($test['expected'], $result);
         }
     }
