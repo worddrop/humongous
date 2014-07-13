@@ -31,7 +31,7 @@ Humongous::parse(int $number, int $precision = 1, string $decimalSeparator = '.'
 **Parameters**
 - `$number` The number that has to be formatted.
 - `[$precision = 1]` The number of decimals that have to be preserved (0's will automatically be trimmed off)
-- `[$decimalSeparator = '1']` A character to separate the decimals.
+- `[$decimalSeparator = '.']` A character to separate the decimals.
 
 **Returns** `string`
 
