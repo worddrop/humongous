@@ -1,5 +1,5 @@
 {
-    "name": "jeroenvisser101/numerous",
+    "name": "worddrop/numerous",
     "description": "PHP library for turning large numbers into numbers formatted as 1.3k.",
     "license": "MIT",
     "keywords": ["big", "large", "numbers", "abbreviation", "shortning"],
