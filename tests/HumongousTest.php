@@ -13,6 +13,9 @@ use Humongous\Humongous;
 
 class HumongousTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * Tests if all the shortners work.
+     */
     public function testNumbers()
     {
         $tests = array(
