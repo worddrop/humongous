@@ -2,7 +2,7 @@
 A library that helps you create readable and short numbers from numbers that are larger than 999.
 
 ## Installation
-Currently, the only reliable way (and recommended way) to install Humongous is by using PHP' package manager Composer. 
+Currently, the only reliable way (and recommended way) to install Humongous is by using PHP's package manager Composer. 
 
 ### Using Composer
 ``` json
