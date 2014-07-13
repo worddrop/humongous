@@ -28,10 +28,10 @@ echo $niceNumber; // 13.2k
 Humongous::parse(int $number, int $precision = 1, string $decimalSeparator = '.');
 ```
 
-**Variables**
+**Parameters**
 - `$number` The number that has to be formatted.
-- `$precision` The number of decimals that have to be preserved (0's will automatically be trimmed off)
-- `$decimalSeparator` A character to separate the decimals.
+- `[$precision = 1]` The number of decimals that have to be preserved (0's will automatically be trimmed off)
+- `[$decimalSeparator = '1']` A character to separate the decimals.
 
 **Returns** `string`
 
