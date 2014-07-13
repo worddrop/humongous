@@ -1,7 +1,8 @@
 {
     "name": "jeroenvisser101/numerous",
-    "description": "PHP library for creating nice numbers.",
+    "description": "PHP library for turning large numbers into numbers formatted as 1.3k.",
     "license": "MIT",
+    "keywords": "big,large,numbers,abbreviation,shortning",
     "authors": [
         {
             "name": "Jeroen Visser",
