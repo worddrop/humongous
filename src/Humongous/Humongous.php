@@ -19,9 +19,10 @@ namespace Humongous;
 class Humongous
 {
     /**
-     * The suffixes used in the wordify function.
+     * The suffixes used in the parse function.
      *
      * @var array
+     * @see Humongous::parse()
      */
     private static $suffixes = array(
         1 => 'k',
