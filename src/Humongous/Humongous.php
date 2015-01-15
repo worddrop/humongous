@@ -24,12 +24,12 @@ class Humongous
      * @var array
      * @see Humongous::parse()
      */
-    private static $suffixes = array(
+    private static $suffixes = [
         1 => 'k',
         2 => 'm',
         3 => 'b',
         4 => 't'
-    );
+    ];
 
     /**
      * Converts a large number to a small number with abbreviation.
